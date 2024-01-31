@@ -112,7 +112,7 @@ The following arguments are required:
 ### topic_replication Argument Reference
 
 * `topicsToReplicate` - (Required) List of regular expression patterns indicating the topics to copy.
-* `topicsToExclude` - (Optional) List of regular expression patterns indicating the topics that should not be replica.
+* `topicsToExclude` - (Optional) List of regular expression patterns indicating the topics that should not be replicated.
 * `detectAndCopyNewTopics` - (Optional) Whether to periodically check for new topics and partitions.
 * `copyAccessControlListsForTopics` - (Optional) Whether to periodically configure remote topic ACLs to match their corresponding upstream topics.
 * `copyTopicConfigurations` - (Optional) Whether to periodically configure remote topics to match their corresponding upstream topics.
